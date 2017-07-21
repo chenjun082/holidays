@@ -1,4 +1,4 @@
-# holidays
+# Holidays
 A new evaluation data set of pairwise image comparisons.
 
 SUMMARY 
