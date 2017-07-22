@@ -4,9 +4,9 @@ A new evaluation data set of pairwise image comparisons.
 SUMMARY 
 =============================================
 
-Holidays data set is one of the evaluation data sets in my newly published research paper in ACM Multimedia 2017 [1]. It contains 10 users' 6682 pairwise comparisons on 260 different scenery images sampled from the INRIA Holidays image set [2]. 
+Holidays data set is one of the evaluation data sets in my newly published research paper [1]. It contains 10 users' 6682 pairwise comparisons on 260 different scenery images sampled from the INRIA Holidays image set [2]. 
 
-[1] Jun Chen, Chaokun Wang and Jianmin Wang. 2017. Modeling the Intransitive Pairwise Image Preference from Multiple Angles. In ACM Multimedia. In press.
+[1] Jun Chen, Chaokun Wang, Jianmin Wang, Xiang Ying, and Xuecheng Wang. 2017. Learning the Personalized Intransitive Preferences of Images. In IEEE Transactions on Image Processing. 26(9):4139-4153.
 
 [2] Hervé Jégou, Matthijs Douze, and Cordelia Schmid. 2008. Hamming Embedding and Weak geometry consistency for large scale image search. In ECCV. 304–317.
 
@@ -15,9 +15,9 @@ Holidays data set is one of the evaluation data sets in my newly published resea
 STATS
 =============================================
 
-    10        users
-    260		  images
-    6682	  pairwise comparisons
+    10		users
+    260		images
+    6682	pairwise comparisons
 
 
 FILE FORMAT
@@ -32,11 +32,14 @@ ImageID.txt - This file shows the matching between the image ID in user#.txt and
 REFERENCE 
 =============================================
 
-When using this dataset you should cite:
+When using this dataset, you should cite:
 
-@INPROCEEDINGS{JunChen:mm2017,
-  AUTHOR = {Jun Chen and Chaokun Wang and Jianmin Wang},
-  TITLE = {Modeling the Intransitive Pairwise Image Preference from Multiple Angles},
-  BOOKTITLE = {Proceedings of the Twenty-Fifth ACM International Conference on Multimedia},
-  YEAR = "2017",
-} 
+@ARTICLE{JunChen:tip2017,
+	AUTHOR = "Jun Chen and Chaokun Wang and Jianmin Wang and Xiang Ying and Xuecheng Wang",
+	TITLE = "Learning the Personalized Intransitive Preferences of Images",
+	JOURNAL = "IEEE Transactions on Image Processing",
+	VOLUME = {26},
+	NUMBER = {9},
+	PAGES = {4139--4153},
+	YEAR = {2017}	}
+
