@@ -1,4 +1,4 @@
-# Holidays #
+# Holidays Pairwise Image Preference Dataset #
 A new evaluation data set of pairwise image comparisons.
 
 ## SUMMARY ##
